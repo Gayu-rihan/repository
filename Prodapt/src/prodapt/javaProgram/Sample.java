@@ -12,6 +12,7 @@ public class Sample {
 			sh.edges=12;
 			sh.color="red";
 			System.out.println(sh.edges + sh.color);
+			
 	}
 
 }
