@@ -5,6 +5,7 @@ public interface Shape {
 	String color="red";
 	void draw();
 	void getArea();
+	
 	//from 1.8 default is introduced
 	default void applyColor() {
 		System.out.println("color applied");

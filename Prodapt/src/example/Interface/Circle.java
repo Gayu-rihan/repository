@@ -7,14 +7,17 @@ public class Circle implements Shape{
 
 	}
 
-	@Override
-	public void draw() {
-		System.out.println("Circle");
-	}
-
+	
 	@Override
 	public void getArea() {
 		System.out.println("getArea method implemented");
+	}
+
+
+	@Override
+	public void draw() {
+		// TODO Auto-generated method stub
+		
 	}
 
 	

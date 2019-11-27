@@ -8,5 +8,7 @@ public class SubClass {
 		System.out.println(pri.getId());
 		System.out.println(pri.getName());
 		
+		System.out.println(pri.toString());
+		
 }
 }
