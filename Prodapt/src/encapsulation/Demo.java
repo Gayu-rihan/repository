@@ -1,4 +1,4 @@
-package Encapsulation;
+package encapsulation;
 class PrivateVariable{
 	private int rollNo;
 	private String name;

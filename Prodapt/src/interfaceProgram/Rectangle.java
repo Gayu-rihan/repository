@@ -1,4 +1,4 @@
-package example.Interface;
+package interfaceProgram;
 
 public class Rectangle implements Shape{
 		public static void main(String[] args) {

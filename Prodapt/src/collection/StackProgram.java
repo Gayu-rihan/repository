@@ -27,6 +27,9 @@ public class StackProgram {
 		st.setSize(20);
 		System.out.println("Capacity:	"+st.capacity());
 		System.out.println("size:	"+st.size());
+		st.clear();
+		System.out.println("After cleared:    "+st);
+		
 	}
 
 }

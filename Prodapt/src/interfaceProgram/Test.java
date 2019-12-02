@@ -1,4 +1,4 @@
-package example.Interface;
+package interfaceProgram;
 
 public class Test {
 

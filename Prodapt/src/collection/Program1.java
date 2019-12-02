@@ -1,7 +1,11 @@
 package collection;
 
+import java.awt.List;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.ListIterator;
 
 public class Program1 {
 
@@ -32,9 +36,19 @@ public class Program1 {
 		while(it.hasNext()) {
 			System.out.println(it.next());
 		}
+
 		System.out.println("using get method");
 		for(int i=0;i<arr.size();i++) {
 			System.out.println(arr.get(i));
+		}
+		LinkedList li= new LinkedList (); 
+		ListIterator it2= li.listIterator();
+		
+		while(it2.hasNext()) {
+			System.out.println(it2.next());
+		}
+		while(it2.hasPrevious()) {
+			System.out.println(it2.next());
 		}
 
 
